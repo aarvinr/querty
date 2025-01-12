@@ -8,6 +8,8 @@ const inter = font({
 	variable: "--font-inter",
 });
 
+export const experimental_ppr = true;
+
 export default function Layout({ children }) {
 	return (
 		<html lang="en-US" className={inter.variable}>
